@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlejandroGarciaMalo</name>
+    </assembly>
+    <members>
+        <member name="F:AlejandroGarciaMalo.Controllers.BaseController.Logger">
+            <summary>
+            Logger
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Controllers.GNBBankController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.GetRates">
+            <summary>
+            Retrieve all Rates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.GetTransactions">
+            <summary>
+            Retrieves all Transactions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.GetTransactionsBySku(System.String)">
+            <summary>
+            Get all transactions by Sku, with the amount in EUR
+            </summary>
+            <param name="Sku"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.GetAllRates">
+            <summary>
+            Method for getting Rates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.GetAllTransactions">
+            <summary>
+            Method for getting Transactions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Controllers.GNBBankController.ResponseError``1(AlejandroGarciaMalo.Models.ListResponse{``0},System.Exception,System.String)">
+            <summary>
+            Method for resolving error
+            </summary>
+            <param name="response"></param>
+            <param name="ex"></param>
+            <param name="method"></param>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Models.DBContext.MyDbContext">
+            <summary>
+            DBContext for Sqlite database in directory of the program
+            </summary>
+        </member>
+        <member name="P:AlejandroGarciaMalo.Models.DBContext.MyDbContext.Rates">
+            <summary>
+            Table Rates
+            </summary>
+        </member>
+        <member name="P:AlejandroGarciaMalo.Models.DBContext.MyDbContext.Transactions">
+            <summary>
+            Table Transactions
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Models.Entities.Rate">
+            <summary>
+            Class Rate
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Models.Entities.Transaction">
+            <summary>
+            Class Transaction
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Models.JsonModels.JsonRate">
+            <summary>
+            Class JsonRate
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Models.JsonModels.JsonTransaction">
+            <summary>
+            Class JsonTransaction
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Shared.AutoMappingProfiles">
+            <summary>
+            Profiles for automapper
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Shared.HelperConfig">
+            <summary>
+            URLs for obtaining the data.
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Shared.Helper">
+            <summary>
+            Helper class containing a method for checking the conecction to internet
+            </summary>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Shared.HelperApi`1">
+            <summary>
+            HelperApi to get data giving a certain Type and a Url.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Shared.Converter">
+            <summary>
+            Class for converters
+            </summary>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Shared.Converter.SearchBestRate(System.String,System.String,System.Collections.Generic.List{AlejandroGarciaMalo.Models.Entities.Rate},System.Collections.Generic.List{AlejandroGarciaMalo.Models.Entities.Rate})">
+            <summary>
+            Method for calcutate the best rate route giving a Currency origin and destination.
+            </summary>
+            <param name="origin">Currency origin</param>
+            <param name="output">Currency destination</param>
+            <param name="listFinalRates">List for all required rates</param>
+            <param name="listRates">List origin of rates</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlejandroGarciaMalo.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:AlejandroGarciaMalo.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AlejandroGarciaMalo.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

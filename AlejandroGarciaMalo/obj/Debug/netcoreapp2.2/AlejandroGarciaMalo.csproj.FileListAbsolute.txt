@@ -1,0 +1,17 @@
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\testhost.exe
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\testhost.dll
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.deps.json
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.runtimeconfig.json
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.runtimeconfig.dev.json
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.dll
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.pdb
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\bin\Debug\netcoreapp2.2\AlejandroGarciaMalo.xml
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.csproj.CoreCompileInputs.cache
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.RazorAssemblyInfo.cache
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.RazorAssemblyInfo.cs
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.AssemblyInfoInputs.cache
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.AssemblyInfo.cs
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.RazorTargetAssemblyInfo.cache
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.dll
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.pdb
+C:\Users\Sugar118\source\repos\AlejandroGarciaMalo\AlejandroGarciaMalo\obj\Debug\netcoreapp2.2\AlejandroGarciaMalo.csprojAssemblyReference.cache
